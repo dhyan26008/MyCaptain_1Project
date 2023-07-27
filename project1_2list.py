@@ -1,7 +1,8 @@
-def print_positive_numbers(list2):
-      for number in list1:
-         if number > 0:
-             print(number)
+
+#list2 = [12, 14, -95, 3]
 
 list2 = [12, 14, -95, 3]
-print_positive_numbers(list2)
+
+positive_numbers = [num for num in list2 if num > 0]
+
+print(positive_numbers)
